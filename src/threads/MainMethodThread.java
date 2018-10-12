@@ -9,6 +9,10 @@ public class MainMethodThread {
 		Thread.getAllStackTraces().keySet().forEach((t) -> System.out.println(t.getName()));
 
 		/*
+		 * Finalizer ,Attach Listener, Signal Dispatcher, Reference Handler ,main
+		 */
+
+		/*
 		 * Thread.getAllStackTraces().keySet().forEach( (t) ->
 		 * System.out.println(t.getName() + "\nIs Daemon " + t.isDaemon() +
 		 * "\nIs Alive " + t.isAlive()));
